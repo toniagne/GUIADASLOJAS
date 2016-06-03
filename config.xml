@@ -29,11 +29,8 @@
     <param name="ios-package" onload="true" value="CDVStatusBar"/>
   </feature>
   <icon src="img/icone.png" />
-
-    <icon gap:platform="android" gap:qualifier="ldpi" src="img/icone.png" />
-    <icon gap:platform="android" gap:qualifier="mdpi" src="img/icone.png" />
-    <icon gap:platform="android" gap:qualifier="hdpi" src="img/icone.png" />
-    <icon gap:platform="android" gap:qualifier="xhdpi" src="img/icone.png" />
+  
+  
   <plugin name="cordova-plugin-device" spec="~1.1.2"/>
   <plugin name="cordova-plugin-console" spec="~1.0.3"/>
   <plugin name="cordova-plugin-whitelist" spec="~1.2.2"/>
