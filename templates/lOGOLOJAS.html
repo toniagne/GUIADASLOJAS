@@ -6,41 +6,54 @@
             <button id="lOGOLOJAS-button7" style="font-size:12px;" class=" button button-positive button-small ">PESQUISA</button>
         </div>
         <div class="">
-            <img src="img/SS8N6IzlTc2m5ruO7zKw_titulo-regioes.png" width="100%" height="auto" style="display: block; margin-left: auto; margin-right: auto;">
+           
         </div>
         <div class="spacer" style="width: 320px; height: 16px;"></div>
         <div class="">
-            <img src="img/UT1UU0CET2ODbQLnpHpf_banners.png" width="100%" height="auto" style="display: block; margin-left: auto; margin-right: auto;">
+           <ion-slide-box on-slide-changed="slideHasChanged($index)">
+                  <ion-slide>
+                    <div class="box blue"> <img src="img/slide1.jpg" width="100%" height="auto" style="display: block; margin-left: auto; margin-right: auto;"></div>
+                  </ion-slide>
+                  <ion-slide>
+                    <div class="box yellow"><img src="img/slide2.jpg" width="100%" height="auto" style="display: block; margin-left: auto; margin-right: auto;"></div>
+                  </ion-slide>
+                  <ion-slide>
+                    <div class="box pink"><img src="img/slide3.png" width="100%" height="auto" style="display: block; margin-left: auto; margin-right: auto;"></div>
+                  </ion-slide>
+                </ion-slide-box>
+
+           
         </div>
         <form id="lOGOLOJAS-form1" class="list ">
             <div class="spacer" style="width: 320px; height: 20px;"></div>
             <label class="item item-select " id="lOGOLOJAS-select1" name="ESTADO">
                 <span class="input-label">ESTADO</span>
                 <select>
-                    <option>ACRE</option>
-                    <option>ALAGOAS</option>
-                    <option>AMAPÁ</option>
-                    <option>AMAZONAS</option>
-                    <option>BAHIA</option>
+                    <option>ESPÍRITO SANTO</option>
                 </select>
             </label>
             <div class="spacer" style="width: 320px; height: 20px;"></div>
             <label class="item item-select " id="lOGOLOJAS-select2" name="CIDADES">
                 <span class="input-label">CIDADES</span>
                 <select>
-                    <option>PORTO ALEGRE</option>
-                    <option>SÃO PAULO</option>
-                    <option>RIO DE JANEIRO</option>
-                    <option>BRASÍLIA</option>
-                    <option>BELÉM</option>
-                    <option>RORAIMA</option>
+                    <option>TODAS AS CIDADES</option>
                 </select>
             </label>
         </form>
         <a ui-sref="sERVIOS.cATEGORIAS" id="lOGOLOJAS-button4" class=" button button-positive  button-block ">PESQUISA</a>
         <div class="spacer" style="width: 320px; height: 20px;"></div>
         <div class="">
-            <img src="img/XpVh9DNCTQaEsfxTCs8R_banners.png" width="100%" height="auto" style="display: block; margin-left: auto; margin-right: auto;">
+           <ion-slide-box on-slide-changed="slideHasChanged($index)">
+                  <ion-slide>
+                    <div class="box blue"> <img src="img/slide4.png" width="100%" height="auto" style="display: block; margin-left: auto; margin-right: auto;"></div>
+                  </ion-slide>
+                  <ion-slide>
+                    <div class="box yellow"><img src="img/slide5.jpg" width="100%" height="auto" style="display: block; margin-left: auto; margin-right: auto;"></div>
+                  </ion-slide>
+                  <ion-slide>
+                    <div class="box pink"><img src="img/slide6.jpg" width="100%" height="auto" style="display: block; margin-left: auto; margin-right: auto;"></div>
+                  </ion-slide>
+                </ion-slide-box>
         </div>
     </ion-content>
 </ion-view>
