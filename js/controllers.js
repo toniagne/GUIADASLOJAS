@@ -1,6 +1,7 @@
 angular.module('app.controllers', [])
   
 .controller('lOGOLOJASCtrl', function($scope) {
+	 
 
 })
    
